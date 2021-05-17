@@ -1,3 +1,3 @@
-# goit-markup-hw-02
+# goit-markup-hw-03
 
-домашнее задание #2 (html + css: цвет и шрифт)
+домашнее задание #3 (flex-box)
