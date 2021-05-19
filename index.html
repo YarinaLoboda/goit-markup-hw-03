@@ -54,8 +54,10 @@
     <main>
       <!-- Секция Герой  -->
       <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="hero-button">Заказать услугу</button>
+        <div class="hero-content">
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <button type="button" class="hero-button">Заказать услугу</button>
+        </div>
       </section>
       <!-- Секция Особенности -->
       <section class="section">
@@ -143,8 +145,10 @@
                 width="270"
                 alt="Игорь Демьяненко"
               />
-              <h3 class="team-name">Игорь Демьяненко</h3>
-              <p class="team-position">Product Designer</p>
+              <div class="team-description">
+                <h3 class="team-name">Игорь Демьяненко</h3>
+                <p class="team-position">Product Designer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -153,8 +157,10 @@
                 width="270"
                 alt="Ольга Репина"
               />
-              <h3 class="team-name">Ольга Репина</h3>
-              <p class="team-position">Frontend Developer</p>
+              <div class="team-description">
+                <h3 class="team-name">Ольга Репина</h3>
+                <p class="team-position">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -163,8 +169,10 @@
                 width="270"
                 alt="Николай Тарасов"
               />
-              <h3 class="team-name">Николай Тарасов</h3>
-              <p class="team-position">Marketing</p>
+              <div class="team-description">
+                <h3 class="team-name">Николай Тарасов</h3>
+                <p class="team-position">Marketing</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -173,8 +181,10 @@
                 width="270"
                 alt="Михаил Ермаков"
               />
-              <h3 class="team-name">Михаил Ермаков</h3>
-              <p class="team-position">UI Designer</p>
+              <div class="team-description">
+                <h3 class="team-name">Михаил Ермаков</h3>
+                <p class="team-position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -183,19 +193,22 @@
     <!-- Футер сайта -->
     <footer class="footer">
       <div class="container">
-        <a href="./index.html" class="link logo"
-          >Web<span class="white-part">Studio</span></a
-        >
-        <address class="footer-adress">
-          <div>г. Киев, пр-т Леси Украинки, 26</div>
-          <a href="mailto:info@devstudio.com" class="link footer-link"
-            >info@devstudio.com</a
+        <div class="footer-content">
+          <a href="./index.html" class="link logo"
+            >Web<span class="white-part">Studio</span></a
           >
-          <br />
-          <a href="tel:+380961111111" class="link footer-link"
-            >+38 096 111 11 11</a
-          >
-        </address>
+          <address class="footer-adress">
+            <div>г. Киев, пр-т Леси Украинки, 26</div>
+            <div class="footer-mail">
+              <a href="mailto:info@devstudio.com" class="link footer-link"
+                >info@devstudio.com</a
+              >
+            </div>
+            <a href="tel:+380961111111" class="link footer-link"
+              >+38 096 111 11 11</a
+            >
+          </address>
+        </div>
       </div>
     </footer>
   </body>
